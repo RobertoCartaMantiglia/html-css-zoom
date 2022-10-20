@@ -3,3 +3,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+main{
+    background-color:black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    width: 95vw;
+    border: 1px dotted white;
+}
+
+.user-img{
+    width: 13.5vw;
+    height: 16vh;
+    /* background-color: blueviolet; */
+    margin: 0 0.5vw 2vw 0;
+    position: relative;
+    background-image: url("https://picsum.photos/seed/picsum/200");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.user-tag{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40%;
+    height: 20%;
+    background-color: red;
+    font-size: 1.2rem;
+}
