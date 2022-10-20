@@ -6,12 +6,19 @@
 main{
     position: relative;
     background-color:black;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+footer{
+    display: flex;
+    height: 10vh;
+    background-color: #222222;
+    justify-content: space-between;
+    
+}
 .upper-buttons-section{
     position: absolute;
     top: 1vh;
@@ -26,7 +33,7 @@ main{
     border: none;
     height: 100%;
     text-align: center;
-    font-size: 2vh;
+    font-size: 1.5vh;
 }
 .main-container{
     display: flex;
@@ -35,7 +42,7 @@ main{
     flex-wrap: wrap;
     height: 80vh;
     width: 95vw;
-    border: 1px dotted white;
+    margin-top: 5vh;
 }
 
 .user-img{
@@ -65,4 +72,14 @@ main{
     left: 0;
     bottom:0;
     color: white;
+}
+.section-footer{
+    height: 100%;
+    width: 25%;
+    border: 1px solid white;
+}
+.main-section-footer{
+    height: 100%;
+    width: 50%;
+    border: 1px solid white;
 }
