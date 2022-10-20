@@ -4,14 +4,34 @@
     box-sizing: border-box;
 }
 main{
+    position: relative;
     background-color:black;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.upper-buttons-section{
+    position: absolute;
+    top: 1vh;
+    right: 1vh;
+    height: 3vh;
+}
+.button{
+    padding: 0.3rem 0.3rem;
+    background-color: #4a4a4a;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    height: 100%;
+    text-align: center;
+    font-size: 2vh;
+}
 .main-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     height: 80vh;
     width: 95vw;
@@ -19,7 +39,7 @@ main{
 }
 
 .user-img{
-    width: 13.5vw;
+    width: 12.5vw;
     height: 16vh;
     /* background-color: blueviolet; */
     margin: 0 0.5vw 2vw 0;
@@ -34,8 +54,15 @@ main{
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 40%;
+    width: 50%;
     height: 20%;
-    background-color: red;
+    background-color: blue;
     font-size: 1.2rem;
+    padding: 0.5rem
+}
+.name{
+    position: absolute;
+    left: 0;
+    bottom:0;
+    color: white;
 }
